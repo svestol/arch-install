@@ -1,8 +1,8 @@
 # set keyboard layout
 loadkeys no-latin1
 
-systemctl enable dhcpdc
-systemctl start dhcpd
+systemctl enable dhcpcd
+systemctl start dhcpcd
 
 timedatectl set-ntp true
 
