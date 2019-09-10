@@ -2,7 +2,7 @@
 loadkeys no-latin1
 
 systemctl enable dhcpdc
-systemgit push -u origin masterctl start dhcpd
+systemctl start dhcpd
 
 timedatectl set-ntp true
 
